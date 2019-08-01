@@ -1,0 +1,8 @@
+/lib
+/coverage
+/demo/dist
+/es
+/node_modules
+/umd
+npm-debug.log*
+config.js
