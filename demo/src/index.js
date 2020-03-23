@@ -1,13 +1,13 @@
 import React, {Component} from 'react'
 import { render } from 'react-dom'
 
-import Example from '../../src'
+import Modal from '../../src/Modal'
 
 class Demo extends Component {
   render() {
     return <div>
       <h1>auspicus-components Demo</h1>
-      <Example />
+      <Modal />
     </div>
   }
 }
