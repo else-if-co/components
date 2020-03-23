@@ -1,13 +1,22 @@
 import React, {Component} from 'react'
 import { render } from 'react-dom'
 
-import Modal from '../../src/Modal'
+import StickyNavigation from '../../src/StickyNavigation'
 
 class Demo extends Component {
   render() {
     return <div>
       <h1>auspicus-components Demo</h1>
-      <Modal title="newTitle" subtitle="newSubtitle" />
+      <StickyNavigation
+        menu={[{
+          component: ({ link, _, className, children }) => (
+            <a href={link} className={className}>
+              {children}
+            </a>
+          ),
+          className: 'sticky-navigation__item',
+          label: 'Menu Item'
+        }]} />
     </div>
   }
 }
