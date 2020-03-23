@@ -7,7 +7,7 @@ class Demo extends Component {
   render() {
     return <div>
       <h1>auspicus-components Demo</h1>
-      <Modal />
+      <Modal title="newTitle" subtitle="newSubtitle" />
     </div>
   }
 }
