@@ -1,0 +1,7 @@
+.sticky-navigation {
+  display: flex;
+}
+
+.sticky-navigation__item {
+  flex: 1 1;
+}

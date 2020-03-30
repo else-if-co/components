@@ -1,0 +1,18 @@
+body {
+  height: 200vh;
+  margin: 0;
+}
+
+.sticky-navigation {
+  padding: 1rem 0;
+  box-shadow: rgba(0, 0, 0, .2) 0 3px 3px 0px;
+}
+
+.sticky-navigation__item {
+  text-align: center;
+}
+
+.sticky-navigation__item svg {
+  display: inline-block;
+  width: 32px;
+}
